@@ -12,3 +12,4 @@ ul{
 a{
    color: #696969
 }
+agm-map { height: 300px; /* height is required */ }

@@ -69,3 +69,34 @@ h2{
 .productContainer{
     margin-bottom: 2rem;
 }
+
+.productContainer .card-content {
+    border: 1px solid #fafafa;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative
+}
+
+.productContainer .card-content caption {
+    position: absolute;
+    background: #ccc;
+    padding: 8px 30px 8px;
+    color: #000;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    display: none
+}
+
+.productContainer .card-content:hover caption {
+    display: block;
+    transition: .5s ease-in-out;
+}
+
+.productContainer .card-content h2 {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: lighter;
+    color: #666;
+    margin-top: 10px
+}
